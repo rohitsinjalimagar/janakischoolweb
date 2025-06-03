@@ -194,6 +194,13 @@ body {
     3px 3px 5px rgba(0,0,0,0.7);
 }
 
+/* Right side: language buttons + flag */
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 /* Language toggle buttons */
 .lang-toggle button {
   background-color: transparent;
@@ -210,6 +217,15 @@ body {
 .lang-toggle button:hover {
   background-color: #e60000;
   color: white;
+}
+
+/* Flag image */
+.flag-container img.nepali-flag {
+  width: 65px;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 /* Navbar styling (optional) */
