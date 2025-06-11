@@ -168,12 +168,13 @@ body {
 }
 
 .logo-main {
-  font-size: 36px;
+  font-size: 32px;
   color: white; /* अक्षर सेतो */
   font-weight: 900;
   margin: 0;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.5px;
+   white-space: nowrap; /*
 
   /* 3D जस्तो shadow */
   text-shadow:
